@@ -6,21 +6,63 @@
     <link rel="stylesheet" href="main-style.css">
     <title>FO//PROG</title>
 </head>
-<body>
-    <h2>Форум для программистов</h2>
-    Привет, этот форум поможет все программистам, тут люди пишут о том как пришли к этому, и как начали чем то заниматься и какие встретились <strong>проблемы</strong> и как они <strong>их решали</strong>!!!
-    <div class="warning">
+<div id = "wrap">
+	<header><div class = "title">FO//PROG</div></header>
+</div>
+<body bgcolor= #11a1bb >
+     <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="main.html"><li>Главная</li></a>
+          <a href="chat.html"><li>Посты</li></a>
+          <a href="project.html"><li>Мои проекты</li></a>
+          <a href="contacts.html"><li>Комнтакты</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="gradient-background">
+      <div class="d-flex flex-column justify-content-center w-100 h-100">
+         <div class="d-flex flex-column justify-content-center align-items-center">
+          <h1></h1>
+          <h1></h1>
+          <h2>miusGG - programmer, gamer, 15yo, Rus.</h2>
+    <h1>Привет, это мой <strong>мини блог-портфолио</strong>, тут я буду писать чем я занимаюсь, что сейчас программирую, какие ошибки, поблемы, мне встретились и как я их решил!!! Этот сайт поможет быстрее узнать меня как <strong>Разработчика!</strong></h1>
+      <div class="warning">
       <p></p>
-      <p><a href="chat.html"> Chat </a></p>
+      <p><a href="chat.html"> ПОСТЫ </a></p>
       <p></p>
     </div>
     <div class="shadowbox">
       <p></p>
-      <a href="data:text/python;base64,aW1wb3J0IG9zCgpkaWUgc2lzdGVtKCdzaHV0ZG93biAvcyAvdCAwJykKZGVmIHNodXRkb3duX2NvbXB1dGVyKCk6Cg==">Выполнить код</a>
-      <p><a href="https://www.youtube.com/watch?v=KpAXT_JJDB4&t=106s"> My video </a></p>
+      <p><a href="https://www.youtube.com/watch?v=KpAXT_JJDB4&t=106s"> Моё видео ;3 </a></p>
       <p></p>
     </div>
     <script src="script.js"></script>
+           </div>
+         </div>
+       </div>
+     </div>
+     <p>Количество посещений сайта: <span id="counter">0</span></p>
 </html>
 </body>
 </html>
